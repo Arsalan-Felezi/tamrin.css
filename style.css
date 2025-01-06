@@ -1,0 +1,13 @@
+a[title] {
+    border-style:dashed;
+    border-width: 2px;
+    border-color: rgb(237, 22, 137);
+}
+a[href]::after{
+    content: "try me";
+}
+a[href^="https"]:hover{
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(6, 120, 6);
+}
